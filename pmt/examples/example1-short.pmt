@@ -1,0 +1,23 @@
+{
+	"MediaType": "Image",
+	"Image": {
+		"function": "txt2img",
+		"txt2img": {
+			"Seed": 1818235504,
+			"Prompt": "A machine ((embroidered painting)) of a crow on a rooftop, watching the sunset, illustrated, industrial, 1930, layers of clouds, diffuse threads of light",
+			"Negative": "multiple suns",
+			"CFGscale": 7,
+			"Height": 512,
+			"Width": 512,
+			"Steps": 20,
+			"Sampler": "DPM++ 2M Karras",
+			"Models": [
+				{
+					"Type": "Stable Diffusion",
+					"Name": "v1-5-pruned-emaonly.ckpt",
+					"Hash": "cc6cb27103"
+				}
+			]
+		}
+	}
+}
